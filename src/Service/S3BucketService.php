@@ -16,8 +16,8 @@ class S3BucketService
             'version' => 'latest',
             'region'  => 'ap-south-1', // Replace with your AWS region
             'credentials' => [
-                'key' => "AKIATNZOVECWOINCMESO",
-                'secret' =>"5TfVtZbeb7lv1cyjfCzm/4QtZngnlO8xqC1LSJEs",
+                'key' => "key",
+                'secret' =>"secretkey",
             ],
         ]);
     }
