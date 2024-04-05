@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>S3 Bucket Objects</title>
+</head>
+<body>
+    <h1>Objects in Bucket: </h1>
+    <ul>
+        {% for object in objects %}
+            <li>{{ object['Key'] }}</li> {% endfor %}
+    </ul>
+</body>
+</html>
