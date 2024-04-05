@@ -1,0 +1,6 @@
+S3API1-
+1. composer require symfony/translation  
+2. composer require vich/uploader-bundle    
+3. composer require aws/aws-sdk-php 
+4. composer require knplabs/knp-gaufrette-bundle  
+5. composer require --dev phpunit maker
